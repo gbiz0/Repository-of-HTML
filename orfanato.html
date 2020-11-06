@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Associação Assistencial Nosso Lar |Happy</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin="" />
+
+  <!-- Make sure you put this AFTER Leaflet's CSS -->
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+
+
+  <link rel="icon" href="./public/images/logo-icon.png" />
+
+  <link rel="stylesheet" href="./public/css/main.css" />
+  <link rel="stylesheet" href="./public/css/page-orfanato.css" />
+  <link rel="stylesheet" href="./public/css/animation.css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div id="page-orfanato">
+    <aside class="animate-right">
+      <aside></aside>
+      <main>
+        <div class="orfanato-details">
+
+          <img src="./public/images/orfanato.jpeg" alt="Associação Assistencial Nosso Lar">
+          <div class="images">
+
+            <button class='active' type="button">
+            <img src="./public/images/orfanato.jpeg" alt="Associação Assistencial Nosso Lar">
+          </button>
+
+          <button type="button">
+            <img src="./public/images/orfanato.jpeg" alt="Associação Assistencial Nosso Lar">
+          </button>
+
+          <button type="button">
+            <img src="./public/images/orfanato.jpeg" alt="Associação Assistencial Nosso Lar">
+          </button>
+
+          <button type="button">
+            <img src="./public/images/orfanato.jpeg" alt="Associação Assistencial Nosso Lar">
+          </button>
+
+          <button type="button">
+            <img src="./public/images/orfanato.jpeg" alt="Associação Assistencial Nosso Lar">
+          </button>
+
+          <button type="button">
+            <img src="./public/images/orfanato.jpeg" alt="Associação Assistencial Nosso Lar">
+          </button>
+
+          </div>
+
+          <div class= "orfanatos-details-content">
+            
+            <h1>Associação Assistencial Nosso Lar</h1>
+            
+            <p>
+              Presta assistência a crianças e jovens que se encontram em situação de risco e/ou vulnerabilidade social
+            </p>
+
+            <div class= "map-container">
+              <div id= "mapid"></div>
+              <footer>
+                <a href="">Ver rotas no Google Maps</a> 
+               </footer>
+            </div>
+
+            <hr>
+
+            <h2>Instruções para visita</h2>
+
+            <p>Cancelado por causa da pandemia</p>
+
+            <div class= "open-details">
+
+              <div class= "hour">
+                <img src="./public/images/clock.svg" alt="Horários">
+                Horário de visitas Das 8h até 18h
+              </div>
+              <div class= "opens-on-weekends">
+                <img src="./public/images/info.svg" alt="Informações">
+                Atendemos fim  de semana
+              </div>
+            </div>
+
+          <button class="primary-button" type="button"></button>
+              <img src="./public/images/whatsapp.svg" alt="Chamar no Whatsapp">
+              Entrar em contato
+            </button>
+          </div>
+        </div>
+      </main>
+
+    </aside>
+  </div>
+  <script src="./public/scripts/page-orfanato.js"> </script>
+</body>
+
+</html>
